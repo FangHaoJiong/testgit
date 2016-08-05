@@ -1,6 +1,17 @@
 
+/* 
 This file is maked for texting "git rm ".
 
-git push origin fang
+*/
 
- 
+1. git checkout --track origin/develop
+   创建一个develop分支并跟踪远程的develop分支
+
+2. git branch develop
+   切换到develop分支
+
+3. git checkout fang 
+   创建并切换到fang分支，fang分支会跟踪当前分支（develop分支）
+
+4. git push origin fang
+   将fang分支推上去OA

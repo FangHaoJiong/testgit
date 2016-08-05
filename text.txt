@@ -1,4 +1,6 @@
 
 This file is maked for texting "git rm ".
 
+git push origin fang
 
+git push 
